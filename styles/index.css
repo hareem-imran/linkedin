@@ -1,3 +1,6 @@
+html{
+    height: 850px;
+}
 html, body, h1, div,label, input,form, a, h2, h3{
     margin: 0;
     padding: 0;
@@ -116,6 +119,7 @@ input[type="submit"]{
     background-color: #283e4a;
     border: 1px solid white;
     border-radius: 3px;
+    cursor: pointer;
 }
 .login .forget-password{
     font-size: 12px;
@@ -140,7 +144,7 @@ a{
 .container{
     background: url(../images/background\ image.jpg);
     background-size: 100%;
-    height: 1000px;
+    height: 700px;
 }
 .container-design{
     display: flex;
@@ -159,7 +163,8 @@ a{
     padding: 0 12px;
 }
 .registration-form{
-    width: 400px;
+    width: 500px;
+    height: auto;
     padding: 0 0 24px;
     margin: 0 auto;
     border-radius: 2px;
@@ -268,6 +273,71 @@ section a{
     color: darkgray;
     cursor: pointer;
     font-weight: bold;
+}
+.lower{
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    background-color: #3d4042;
+    padding: 30px 0 0;
+    width: 100%;
+    height: 130px;
+    background: #44474a;
+}
+.heading-3{
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 17px;
+    margin-right: 8px;
+    color: #c7c2c2a8;
+}
+.lower-form input[type="text"]{
+    box-sizing: border-box;
+    background: white;
+    color: black;
+    border: 1px solid black;
+    vertical-align: middle;
+    padding-left: 8px;
+    padding-top: 5px;
+    width: 250px;
+    margin-right: 5px;
+    height: 25px;
+    line-height: 17px;
+    font-weight: 300;
+    box-shadow: none;
+    border-radius: 2px;
+    padding: 0 10px;
+    outline: 0;
+    
+
+}
+.button{
+    box-sizing: border-box;
+    background: transparent;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.5);
+    border: black;
+    border-radius: 2px ;
+    font-family: inherit;
+    display: inline-block;
+    font-size: 20%;
+    font-weight: 400;
+    height: 32px;
+    line-height: 32px;
+    overflow: hidden;
+    outline-width: 2px;
+    padding: 0 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    z-index: 0;
+    cursor: pointer;
 }
 
 
