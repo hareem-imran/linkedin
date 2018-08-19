@@ -1,0 +1,151 @@
+html, body, h1, div, form,label, input, a{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+}
+
+
+
+
+html{
+    display: block;
+    font-size: 60%;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    background-color: black;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: 12px;
+    background-color: black;
+    display: block;
+    margin: 0;
+}
+.head{
+    padding: 0 10px;
+    background-color: #283e4a;
+    display: block;
+}
+div{
+    display: block;
+}
+
+.head .head-design{
+    display: flex;
+    -webkit-box-pack: justify;
+    width: 100%;
+    margin: 0 auto;
+}
+.heading-design{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+h1{
+    font-size: 25px;
+    font-weight: bold;
+    -webkit-margin-before: 0.5px;
+    -webkit-margin-after: 0.5px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+
+}
+.image{
+    transition: opacity 0.3s;
+    display: inline-block;
+
+}
+.login{
+    display: -webkit-inline-box;
+    display: inline-flex;
+    position: relative;
+    -webkit-box-align: start;
+    -webkit-box-pack: end;
+    align-items: flex-start;
+    justify-content: flex-end;
+    text-align: right;
+}
+.login label{
+    border: 0 ;
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px ;
+    overflow: hidden;
+    padding: 0 ;
+    position: absolute ;
+    white-space: nowrap ;
+    text-align: right;
+    width: 1px ;
+}
+.login input{
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 500;
+    color: black;
+    display: inline-block;
+    width: 216px;
+    height: 32px;
+    margin: 8px 7px 8px 0;
+    padding: 0 10px;
+    background: white;
+    border: 1px solid gray;
+    border-radius: 2px;
+    
+}
+input{
+    vertical-align: middle;
+    cursor: text;
+}
+input[type="submit"]{
+    font-size: 12px;
+    line-height: 24px;
+    font-weight: 500;
+    color: white;
+    font-weight: 300;
+    display: inline-block;
+    width: auto;
+    height: 32px;
+    margin: 8px 0 0;
+    padding: 0 20px;
+    background-color: #283e4a;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+.login .forget-password{
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+    color: black;
+    display: flex;
+     -webkit-box-align: center;
+    align-items: center;
+    color: lightgray;
+    margin: 15px 10px 15px 20px;
+}
+a{
+    text-decoration: none;
+    background-color: #283e4a;
+    border: 0;
+    padding: 0;
+    vertical-align: baseline;
+    cursor: pointer;
+    display: inline-block;
+}
+
+
+
+
+
+
+
+*{
+    box-sizing: border-box;
+}
