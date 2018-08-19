@@ -32,6 +32,13 @@ body{
     margin: 0;
 
 }
+.head .head-design{
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    width: 1116px;
+    margin: 0 auto;
+}
 .head{
     padding: 0 10px;
     background-color: #283e4a;
